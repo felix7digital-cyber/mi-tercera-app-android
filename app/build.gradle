@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace 'com.felix.miprimeraapp'
+    namespace 'com.felix.miterceraapp'
     compileSdk 34
 
     defaultConfig {
-        applicationId "com.felix.miprimeraapp"
+        applicationId "com.felix.miterceraapp"
         minSdk 24
         targetSdk 34
         versionCode 1
