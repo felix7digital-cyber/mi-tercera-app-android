@@ -20,8 +20,11 @@ jobs:
         java-version: '17'
         distribution: 'temurin'
 
+    - name: Dar permisos de ejecucion a Gradle Wrapper
+      run: chmod +x gradlew
+
     - name: Compilar APK Debug
-      run: gradle assembleDebug --no-daemon
+      run: ./gradlew assembleDebug --no-daemon
 
     - name: Subir APK
       uses: actions/upload-artifact@v4
