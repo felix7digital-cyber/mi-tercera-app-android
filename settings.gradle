@@ -13,5 +13,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "mi-segunda-app-android"
-
+rootProject.name = "mi-tercera-app-android"
+include ':app'
